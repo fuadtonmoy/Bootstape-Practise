@@ -4,9 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstape</title>
+   <link rel="stylesheet" href="Bootstape/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <style>
+h1{
+    margin-top: 100px;
+}
+
+    </style>
 </head>
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <h1>Button</h1>
     <h1>Hello This is Bootstape</h1>
+    <button class="btn btn-primary">My button</button>
+    <button class="btn btn-secondary">My Second button</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    
+    <h1>color</h1>
+    <p class="text-primary">This is my first paragraph</p>
+    <p class="text-danger">I am the danger man</p>
+
+    <h1>My news</h1>
+    <div class="bg-primary text-white">
+        <h1>My news</h1>
+        <p> I am learning Bootstape</p>
+    </div>
+    <div class="bg-success text-white">
+        <h1>My hobby</h1>
+        <p>Scroll facebook and see movies </p>
+    </div>
+        <h1>Images</h1>
+        <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/fb.jpg" alt="">
+        <img class="img-fluid w-25 rounded-circle" src="images/toystory.jpg" alt="">
+        <img class="w-25" src="images/up.jpg" alt="">
+    
+
+    <h1>Card</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="images/world.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/walle.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/up.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/toystory.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1>Navigations</h1>
+      <nav class="nav">
+         <a class="nav-link" href="">Home</a> 
+         <a class="nav-link" href="">Products</a> 
+         <a class="nav-link" href="">Shopping Cart</a> 
+         <a class="nav-link" href="">Shipping</a> 
+      </nav>
+
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      
+    
+      <div class="container">
+          <div class="row">
+            <div class="col-3">
+                <h1>Grid</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit cupiditate molestiae tempora illum consequuntur modi, ipsa nisi repellat necessitatibus ex est magni ab, voluptatum commodi doloremque, eos sapiente dolores. Vitae pariatur non sed debitis magnam illum quidem dolor placeat eligendi iure, ratione esse autem vero nobis nulla nemo expedita eius.</p>
+            </div>
+            <div class="col-3">
+               
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit cupiditate molestiae tempora illum consequuntur modi, ipsa nisi repellat necessitatibus ex est magni ab, voluptatum commodi doloremque, eos sapiente dolores. Vitae pariatur non sed debitis magnam illum quidem dolor placeat eligendi iure, ratione esse autem vero nobis nulla nemo expedita eius.</p>
+            </div>
+            <div class="col-3"> 
+             
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit cupiditate molestiae tempora illum consequuntur modi, ipsa nisi repellat necessitatibus ex est magni ab, voluptatum commodi doloremque, eos sapiente dolores. Vitae pariatur non sed debitis magnam illum quidem dolor placeat eligendi iure, ratione esse autem vero nobis nulla nemo expedita eius.</p>
+            </div>
+            <div class="col-3">
+           
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit cupiditate molestiae tempora illum consequuntur modi, ipsa nisi repellat necessitatibus ex est magni ab, voluptatum commodi doloremque, eos sapiente dolores. Vitae pariatur non sed debitis magnam illum quidem dolor placeat eligendi iure, ratione esse autem vero nobis nulla nemo expedita eius.</p>
+            </div>
+          </div>
+          </div>
+         
+          
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
